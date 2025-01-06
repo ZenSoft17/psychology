@@ -1,0 +1,25 @@
+/* global styles */
+
+@font-face {
+	font-family: 'sugo pro display';
+	src: url('./assets/sugo-pro-classic/Sugo-Pro-Classic-Regular-trial.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'montserrat';
+	src: url('./assets/Montserrat/Sugo-Pro-Classic-Regular-trial.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+:root {
+	* {
+		padding: 0;
+		box-sizing: border-box;
+		margin: 0;
+		transition: all 0.1s ease;
+		font-family: 'sugo pro display', sans-serif;
+	}
+}
